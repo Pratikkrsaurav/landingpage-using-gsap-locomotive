@@ -192,6 +192,18 @@ position: absolute;
 z-index: 9;
 background-color: palegoldenrod;
 border-radius: 2vw;
+display: flex;
+align-items: center;
+justify-content: space-between;
+text-transform: capitalize;
+padding: 0vw 2vw;
+}
+#page2 .elem .dets h4{
+    font-size: 1vw;
+    font-family: 'Futura', sans-serif;
+    font-weight: 400;
+    text-transform: uppercase;
+    line-height: 2vw;
 }
 
 #page2 .elem .dets:hover{
@@ -305,10 +317,145 @@ border-radius: 2vw;
     border-bottom: 1px solid black;
     position: absolute;
 }
-#page5 #top-bar h5{
-    font-size: 0.8vw;
-    font-family: 'Futura', sans-serif;
-    font-weight: 500;
-    text-transform: uppercase;
+@media (max-width: 600px) {
+    
+    #nav-part1{
+        height: 8vw;
+    }
+    #nav-part1 svg{
+        height: 8vw;
+    }
+    
+    #nav #nav-part2{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 3vw;
+    }
+    
+    #nav-part2 #links{
+        padding: 1vw;
+    }
+    #nav-part2 #links a{
+        font-size: 2vw;
+        
+    }
+    #nav-part2 #icons{
+      font-size: 2.2vw;  
+    }
+
+    #page1 h1{
+        padding-left: 3vw;  
+    }
+    
+    #image-container{
+        height: 65vh;
+    }
+    
+    #image-container img{
+        scale: 1;
+    }
+    
+    #page1 h2{
+        font-size: 5.4vw;
+        margin-top: 10vw;
+        
+    }
+    
+    #page1 h5{
+        font-size: 2vw;
+    }
+    
+    #page1 h4{
+        font-size: 1.6vw;
+    }
+
+    #page1 #line-bar h6{
+        font-size: 1.9vw;
+    }
+        
+        
+    
+    #page2{
+        flex-direction: column;
+    }
+    
+    #page2 .elem{
+        height: 100%;
+        width: 100%;
+        overflow: hidden;
+        margin: 3vw 1vw;
+    }
+    
+    #page2 .elem img{
+        scale: 1;
+      
+    }
+    
+    #page2 .elem .dets{
+        height: 5vw;
+        width: 30%;
+    }
+    
+    #page2 .elem .dets:hover{
+        height: 24vh;
+    }
+    
+    #page3{
+        height: 40vh;
+    }
+    
+    #page3 #text #text-left{
+        width: 58%;
+        margin-left: 1vw;
+    }
+    
+    #page3 #text #text-left h1{
+        font-size: 7vw;
+        line-height: 6.5vw;
+    }
+    
+    #page3 #text #text-right p{
+        font-size: 2vw;
+    }
+    
+    #page3 #text #text-right h5{
+        font-size: 2.4vw;
+        font-weight: 400;
+    }
+    
+    
+     .child{
+        height: 30vh;
+        width: 40vw;
+        margin: 6vw 1vw;
+       
+    }
+    
+    .child h5{
+        font-size: 2vw;
+    }
+    
+    .child h6{
+        text-transform: capitalize;
+        font-size: 1.8vw;
+        font-family: 'Futura', sans-serif;
+        font-weight: 300;
+        text-align: center;
+        margin-top: 1.6vw;
+    }
+
+    #page5{
+        margin-top: 12vw;
+    }
+
+    #page5 #top-bar{
+        height: 2vh;
+        padding: 0vw 3vw;    
+    }
+    #page5 #top-bar h5{
+        font-size: 1.7vw;
+    }
+
 }
 
